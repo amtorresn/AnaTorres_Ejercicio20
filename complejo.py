@@ -2,7 +2,7 @@ import numpy as np
 import math
 
 class Complejo:
-    def __init__(x, y):
+    def __init__(self, x, y):
         self.real = x
         self.imaginario = y
         self.norma = np.sqrt(x**2 + y**2)
