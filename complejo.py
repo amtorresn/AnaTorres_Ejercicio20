@@ -8,8 +8,9 @@ class Complejo:
         self.norma = np.sqrt(x**2 + y**2)
         
     def conjugado(self):
-        conjugado = self.real - 1j*self.imaginario
-        return conjugado
+        real = self.real
+        imag = -self.imaginario
+        return Complejo(real, imag)
         
     def calcula_norma(self):
         return self.norma
