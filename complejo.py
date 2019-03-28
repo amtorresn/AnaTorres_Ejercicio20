@@ -1,5 +1,5 @@
 import numpy as np
-import math
+import cmath
 
 class Complejo:
     def __init__(self, x, y):
