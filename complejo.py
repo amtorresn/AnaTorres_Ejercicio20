@@ -1,7 +1,7 @@
 import numpy as np
 import math
 
-class Complejo():
+class Complejo:
     def __init__(x, y):
         self.real = x
         self.imaginario = y
